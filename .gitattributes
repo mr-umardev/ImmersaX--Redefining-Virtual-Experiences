@@ -1,5 +1,13 @@
-*.reactjs linguist-detectable=true
-*.javascript linguist-detectable=false
-*.html linguist-detectable=false
-*.xml linguist-detectable=false
+# Detect JavaScript and JSX files for React
+*.js linguist-detectable=true
+*.jsx linguist-detectable=true
+
+# Detect CSS files for Tailwind CSS
 *.css linguist-detectable=true
+
+# Detect HTML files for React components
+*.html linguist-detectable=true
+
+# Other irrelevant file types (if needed)
+*.java linguist-detectable=false  
+*.xml linguist-detectable=false
