@@ -1,13 +1,5 @@
-# Detect React JSX and TSX files
 *.jsx linguist-detectable=true
 *.tsx linguist-detectable=true
-
-# Detect CSS files for Tailwind CSS
 *.css linguist-detectable=true
-
-# Exclude general JavaScript files
 *.js linguist-detectable=false
-
-# Exclude other irrelevant file types (if needed)
-*.java linguist-detectable=false
-*.xml linguist-detectable=false
+.*html linguist-detectable=false
