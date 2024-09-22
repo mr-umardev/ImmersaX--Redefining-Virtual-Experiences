@@ -1,10 +1,6 @@
-# Detect only React JSX and TSX files
-*.jsx linguist-detectable=true
-*.tsx linguist-detectable=true
-
-# Detect CSS files for Tailwind CSS
-*.css linguist-detectable=true
-
-# Exclude general JavaScript and HTML files
-*.js linguist-detectable=false
-*.html linguist-detectable=false
+* linguist-vendored
+*.jsx linguist-vendored=false
+*.tsx linguist-vendored=false
+*.css linguist-vendored=false
+*.js linguist-vendored=true
+*.html linguist-vendored=true
